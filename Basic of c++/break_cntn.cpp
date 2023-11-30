@@ -11,10 +11,10 @@ int main(){
     for (int date=1;date<=31;date++){
 
         if(date%2==0){
-            continue;
+            continue; // skip to the next iteration of the loop
         }
         if(pmoney<=0){
-            break;
+            break; // terminate the loop
         }
 
         pmoney = pmoney - 1200;
